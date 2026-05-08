@@ -1,0 +1,121 @@
+div
+{
+    background-color:#BD0004;
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-size: xx-large;
+}
+h1{
+    color:black;
+    font-size: xx-large;
+}
+p{
+    color: white;
+}
+h5{
+    color: black;
+}
+img{
+    
+    margin-top:1px;
+    margin-bottom: 70px;
+}
+.simple{
+    background-color: white;
+    text-align: left;
+}
+hr {
+    background-color: #BD0004;
+  height: 3px;           /* Line thickness */
+  border: none;          /* Remove default border */
+}
+#container{
+    display:flex;
+    width:500px;
+    background-color: white;
+    justify-content:space-evenly;
+    border-radius: 0 0 0% 0%/0 0 0% 0%;
+    gap:60px;
+}
+.sub{
+    border-style: dotted;
+border-width: 7px;
+border-color: black;
+    border-radius: 0 0 0% 0%/0 0 0% 0%;
+    box-shadow: 6px 6px 10px 10px gray;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    background-color: white;    
+}
+.end
+{
+    color:#BD0004;
+    background-color:white;
+}
+p{
+    text-align: end;
+}
+/* Apply Now Button Styling */
+.apply-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #ff471a,#ff8533);
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.apply-btn:hover {
+    background: linear-gradient(135deg, blue,#471ff1);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Active (Click) Effect */
+.apply-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+i{
+   display: flex;
+   align-items: end;
+   justify-content: space-around;
+}
+.apply-btn{
+    display: flex;
+    align-items:flex-start;
+    gap: 12px;
+}
+.sub span::before{
+content:"permium";
+position: absolute;
+width:10%;
+height: 30px;
+background: gold;
+transform: rotate(-1deg) translateX(-15px);
+display: flex;
+align-items: centre;
+justify-content: center;
+color: black;
+font-weight:600;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+box-shadow:0 5px 10px rgba(0,0,0,0.23);
+}
+.tag{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    background-color: white;
+}
+
